@@ -5,10 +5,6 @@ var signupPassword = document.getElementById('signupPassword')
 var signinEmail = document.getElementById('signinEmail')
 var signinPassword = document.getElementById('signinPassword')
 var sUpArr = [];
-// catch base url from localhost
-var path = location.pathname.split('/');
-var baseURL = ''
-for (var i = 0; i < path.length - 1; i++) {baseURL += '/' + path[i]}
 /*signup*/
 if (localStorage.getItem('users') !== null)
 {sUpArr = JSON.parse(localStorage.getItem('users'))}else{sUpArr = [];}
@@ -31,9 +27,7 @@ function signUp() {
       document.getElementById('require').innerHTML = '<span class="text-danger fw-bold m-3">email already exists</span>'
     } else {
 sUpArr.push(signUp1);
-if (baseURL == '/') {
-        location.replace('https://' + location.hostname + '/index.html')
-      } else {location.replace(baseURL + '/index.html')}
+location.href = "index.html";
       clearForm();
         localStorage.setItem('users', JSON.stringify(sUpArr))
         document.getElementById('require').innerHTML = '<span class="text-success m-3">Success</span>'}
@@ -52,9 +46,7 @@ var email = signinEmail.value;
 for (var i = 0; i < sUpArr.length; i++) {
     if (sUpArr[i].email.toLowerCase() == email.toLowerCase() && sUpArr[i].password.toLowerCase() == password.toLowerCase()) {
         localStorage.setItem('UserName', sUpArr[i].name)
-        if (baseURL == '/') {
-            location.replace('https://' + location.hostname + '/home.html')
-          } else {location.replace(baseURL + '/home.html')}
+        location.href = "home.html";
           document.getElementById('item').innerHTML = '<span class="text-success m-3">Success</span>'
         } else {
         document.getElementById('item').innerHTML = '<span class="p-2 text-danger fw-bold">incorrect email or password</span>'
