@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=DM+Serif+Display&family=Exo+2&family=Jost&family=Montserrat:wght@200;400;500;800;900&family=Pacifico&family=Poppins:wght@400;700&family=Rubik&family=Teko&display=swap" rel="stylesheet">
+    <title>Login</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="Css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./Css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body id="login">
+    <span class="d-none" id="userName"></span>
+    <div class="container my-5 text-center pt-4">
+        <div class="group m-auto w-75 h-75  rounded-5 row ">
+<div class=" box col-md-6 ">
+            <h1 >Smart Login System</h1>
+            <input id="signinEmail" class="form-control my-3" placeholder="Enter your email" type="text">
+            <input id="signinPassword" class="form-control my-3" placeholder="Enter your password" type="password">
+            <p id="item"></p>
+            <button onclick="login()" class=" btn  w-50 my-3 rounded-5">Login</button>
+            <p class="aa text-light">Don’t have an account? <a class='an ' href='./signup.html'>Sign Up</a></p>
+        </div>
+        <div class=" box1 col-md-6">
+            <div id="carouselExampleIndicators" class="carousel slide pb-5 " data-bs-ride="carousel">
+                <div class="carousel-inner ">
+                  <div class="carousel-item active text-center">
+                    <img src="./img/6368592.jpg" class=" pb-2" alt="testimonial-2">
+                    <p class=" lead  " >
+                      #1 Creat a New Account
+                    </p>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="./img/2007.i039.019_cyber_security_spyware_data_protection_isometric_set-06.jpg" class="  pb-2  " alt="testimonial-4">
+                    <p class=" lead ">
+                        #2 Enter your Email and password 
+                    </p>
+                  </div>
+                  <div class="carousel-item text-center">
+                    <img src="./img/2108.i039.013.F.m004.c9.HR recruitment hiring isometric.jpg" class="  pb-2 " alt="testimonial-4">
+                    <p class=" lead ">
+                        Finally, Welcome to your page
+                    </p>
+                  </div>
+                </div>
+              <div class="carousel-indicators ">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"  aria-label="Slide 3"></button>
+              </div>
+             </div>
+        </div>
+        </div>
+    </div>
+<script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

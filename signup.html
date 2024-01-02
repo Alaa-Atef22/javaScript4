@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=DM+Serif+Display&family=Exo+2&family=Jost&family=Montserrat:wght@200;400;500;800;900&family=Pacifico&family=Poppins:wght@400;700&family=Rubik&family=Teko&display=swap" rel="stylesheet">
+    <title>signup</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="Css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./Css/style.css">
+</head>
+<body id="signup">
+    <span class="d-none" id="username"></span>
+    <div class="container my-5 text-center pt-5">
+        <div class="group1 m-auto w-75 p-5 row rounded-5 ">
+            <div class="col-md-10 m-auto">
+            <h1>Smart Login System</h1>
+            <input id="signupName" class="form-control my-3 " placeholder="Enter your name" type="text">
+            <input id="signupEmail" class="form-control my-3 " placeholder="Enter your email" type="email">
+            <input id="signupPassword" class="form-control my-3  " placeholder="Enter  password" type="password">
+            <p id="require"></p>
+            <button onclick="signUp()" class="btn w-50 my-3 rounded-5">Sign Up</button>
+            <p class="text-light">You have an account? <a class='an' href='index.html'>Signin</a></p>
+        </div>
+    </div>
+</div>
+<script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

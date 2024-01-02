@@ -1,0 +1,36 @@
+::selection{background-color:#1e2f5c; color: #fff;}
+.group{background: linear-gradient(270deg, rgba(255,255,255,1) 50%,#0644ED 50%);padding: 50px;}
+.box{background-color:#0644ED; padding-top: 40px; padding-right:50px;}
+.box h1{font-size: 32px !important;color: #fff;padding-bottom: 20px;}
+.box1 img{width: 75%;height: 75%;}
+.carousel-item{color:#0644ED;position: static;}
+.carousel-indicators [data-bs-target]{height: 15px;border-radius: 50%;width:15px;background-color: #4e75e2 !important;}
+.box input{background-color: #fff !important;color: #0644ED !important;}
+.box button{background-color: #fff;color:#0644ED;}
+.box button:hover{background-color:#A6BAF0;color:#0644ED;}
+ .an{color:#A6BAF0; }
+#login{height: 92.5vh;font-family: 'Rubik', sans-serif;background: linear-gradient(0deg, rgba(255,249,249,1) 50%, rgba(6,68,237,1) 50%);}
+#home {height: 75vh;}
+.group,.group1,.group2 {box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);}
+.group1{background-color: #0644ED;}
+#signup input{background-color: #fff !important;color: #0644ED !important;}
+#signup{background: linear-gradient(270deg, rgba(255,255,255,1) 50%,#0644ED 50%);font-family: 'Rubik', sans-serif;}
+.group1 button{background-color: #fff;color:#0644ED;}
+.group1 button:hover{background-color:#A6BAF0;color:#0644ED;}
+ #signup, #home h1{font-size: 40px !important;color: #fff;}
+ #signup p{font-size: 20px;}
+#home{background: linear-gradient(270deg, rgba(255,255,255,1) 50%,#0644ED 50%);font-family: 'Rubik', sans-serif;}
+.but1{background-color: #fff;color:#0644ED;}
+.but1:hover{background-color:#A6BAF0;color:#0644ED;}
+.navbar{background-color: #0644ED;}
+.group2{background-color: #fff; height: 500px;}
+.group2 h1{background-color: #0644ED;}
+input,textarea {background-color: transparent !important; color: #fff !important;}
+input::placeholder,textarea::placeholder {color: rgb(182, 182, 182) !important;}
+input:focus,textarea:focus {box-shadow: -5px 2px 54px -9px rgb(0, 0, 0) !important;}
+@media only screen and (max-width:768px) {.box{padding-top: 0px;margin-top: 0; padding-right:0;}.box h1{font-size:20px !important;padding-bottom: 0px;} .aa{font-size: 15px;}
+.box1 img{padding-top: 16px;}.box1 p{font-size: 14px;}.group2 img{width: 100% !important;}
+.group{background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(0,64,245,1) 50%);}}
+@media only screen and (max-width: 600px) {.box{padding-top: 0; padding-right:0;max-height: 75%;}.box h1{font-size:20px !important;padding-bottom: 0px;padding-top: 15px;} .aa{font-size: 15px;}
+.box1 img{padding-top: 0px;width: 50%;height: 50%;}.box1 p{font-size: 9px;}.box {border-top-right-radius: 50%;border-top-left-radius:50% ;} .box input{width: 75%; margin: auto;}
+.group{background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(0,64,245,1) 50%);padding:0px;}.carousel-indicators{padding-bottom: 5px;}.group1 button{font-size: 10px;}#signup h1{font-size: 20px;}#signup p{font-size: 15px;} .group2 h1{ width: 100% !important;}.group2 img{width: 100% !important;}}
